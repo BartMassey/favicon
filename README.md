@@ -13,17 +13,15 @@ being accessed. Older browsers expect to see
 so it is probably best to supply those.  But of course, this
 is a pain in the neck, especially in my Linux environment.
 
-I have written a
-[shell script](http://wiki.cs.pdx.edu/gitweb?p=favicon.git;a=summary)
-to munge an arbitrary image in PNG (easily adaptable to most
-any other standard format) into a workable favicon.  The
-script makes heavy use of utilities from the
-[Netpbm](http://netpbm.sourceforge.net/) collection.  It
-takes a source image file as its argument, and makes a giant
-mess in the directory it is run in, including a favicon file
-that contains the image at a multiple of resolutions.  The
-formats in the favicon are currently hard-coded to a
-recommendation from the <a
+I have written a shell script to munge an arbitrary image in
+PNG (easily adaptable to most any other standard format)
+into a workable favicon.  The script makes heavy use of
+utilities from the [Netpbm](http://netpbm.sourceforge.net/)
+collection.  It takes a source image file as its argument,
+and makes a giant mess in the directory it is run in,
+including a favicon file that contains the image at a
+multiple of resolutions.  The formats in the favicon are
+currently hard-coded to a recommendation from the <a
 href="http://netpbm.sourceforge.net/doc/ppmtowinicon.html">ppmtowinicon</a>
 manual page, but the script should be easily adaptable to
 include other formats.  I left the garbage around because
